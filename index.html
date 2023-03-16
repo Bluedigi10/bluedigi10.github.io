@@ -4,70 +4,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Presentación</title>
-    <style>
-        p{
-            color: rgb(0, 0, 128);
-            text-indent: 30px;
-            text-transform: uppercase;
-        }
-        h1{
-            text-align: center;
-            color: aliceblue;
-        }
-        h2{
-            text-indent: 10px;
-        }
-    </style>
-    <style type="text/css">
-        #general{
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%; 
-        }
-        #cabecera{
-            position: relative;
-            background-color: black;
-            float: left;
-            width: 100%;
-            height: 8%;
-        }
-        #interior{
-            position: relative;
-            background-color: antiquewhite;
-            float: left;
-            width: 50%;
-            height: 50%;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" media="screen" href="estilo.css">
+    <title>MI CV</title>
 </head>
 <body>
-    <div id=general>
-        <div id=cabecera>
-            <h1>CV</h1>
+    <aside class="lateral">
+        <div class="imgperfil">
+            <img class="foto" src="imgs/imgperfil.jpg" alt="Emmanuel Martinez">
         </div>
-        <div id=interior>
-            <h2>Nombre</h2>
-            <p>Emmanuel David</p>
-            <h2>Apellido</h2>
-            <p>Martinez Vidal</p>
-        </div>
-        <div id=interior>
-            <h2>FOTO</h2>
-            <img src="https://media.licdn.com/dms/image/C4E03AQFtZYdxqTuPXQ/profile-displayphoto-shrink_200_200/0/1622574080508?e=1683763200&v=beta&t=cAV8utrw7BeMMPJrbyoVNkdd6XiwS1PlLzSUGzxmnR0" alt="Emmanuel">
-        </div>
-        <div id=interior>
-            <h2>REDES SOCIALES</h2>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/edmv98/">Emmanuel Martinez</a></p>
-            <p>Facebook: <a href="https://www.facebook.com/manuel.p.martinezvidal">Emmanuel Martinez</a></p>
-            <p>Correo: edmv98@gmail.com</p>
-        </div>
-        <div id=interior>
-            <h2 style="text-align: center;">DESCRIPCION:</h2>
-            <h3 style="text-indent: 30px;">Persona sociable con grandes capacidades logicas y buen trabajo en equipo</h3>
-        </div>
-    </div>
+        <section class="datos">
+            <div class="box1">
+                <h2 class="titulo">Contacto</h2>
+            </div>
+            <div class="box2">
+                <div class="redes">
+                    <img class="fotoredes" src="imgs/mail.png" alt="email">
+                </div>
+                <div class="textoredes">
+                    <p class="textocontacto">edmvp98@gmail.com</p>
+                </div>
+                <div class="redes">
+                    <img class="fotoredes" src="imgs/in.png" alt="linkedin">
+                </div>
+                <div class="textoredes">
+                    <p class="textocontacto"><a href="https://www.linkedin.com/in/edmv98/" target="_blank">LINKEDIN</a></p>
+                </div>
+                <div class="redes">
+                    <img class="fotoredes" src="imgs/fb.png" alt="fb">
+                </div>
+                <div class="textoredes">
+                    <p class="textocontacto"><a href="https://www.facebook.com/manuel.p.martinezvidal" target="_blank">FACECBOOK</a></p>
+                </div>
+            </div>
+        </section>
+        <section class="datos">
+            <div class="box1">
+                <h2 class="titulo">Idiomas</h2>
+            </div>
+            <div class="box2">
+                <ul>
+                    <li><p class="texto">Inglés: Intermedio</p></li>
+                    <li><p class="texto">Aleman: Básico</p></li>
+                    <li><p class="texto">Español: Nativo</p></li>
+                </ul>
+            </div>
+        </section>
+        <section class="datos">
+            <div class="box1">
+                <h2 class="titulo">Habilidades</h2>
+            </div>
+            <div class="box2">
+                <ul>
+                    <li><p class="texto">Razonamiento Logico</p></li>
+                    <li><p class="texto">Matematicas avanzadas</p></li>
+                    <li><p class="texto">Dominio de la paquetería Office</p></li>
+                    <li><p class="texto">Lenguajes de programación</p></li>
+                    <li><p class="texto">Cadista</p></li>
+                </ul>
+            </div>
+        </section>
+        <section class="datos">
+            <div class="box1">
+                <h2 class="titulo">Cursos</h2>
+            </div>
+            <div class="box2">
+                <ul>
+                    <li><p class="texto">Razonamiento Logico</p></li>
+                    <li><p class="texto">Matematicas avanzadas</p></li>
+                    <li><p class="texto">Dominio de la paquetería Office</p></li>
+                    <li><p class="texto">Lenguajes de programación</p></li>
+                    <li><p class="texto">Cadista</p></li>
+                </ul>
+            </div>
+        </section>
+    </aside>
+    <main class="principal">
+        <header class="cabeza">
+            <h1 class="titulop">Emmanuel David Martinez Vidal</h1>
+        </header>
+        <section class="seccion">
+            <article class="info">
+                <div class="box1main">
+                    <h2 class="titulomain">Perfil Profesional</h2>
+                </div>
+                <div class="box2main">
+                    <p class="textomain">prueba a de algo</p>
+                </div>
+            </article>
+            <article class="info">
+                <div class="box1main">
+                    <h2 class="titulomain">Experiencia laboral</h2>
+                </div>
+                <div class="box2main">
+                    <p class="textomain">prueba a de algo</p>
+                </div>
+            </article>
+            <article class="info">
+                <div class="box1main">
+                    <h2 class="titulomain">Formación</h2>
+                </div>
+                <div class="box2main">
+                    <p class="textomain">prueba a de algo</p>
+                </div>
+            </article>
+        </section>
+    </main>
 </body>
 </html>
