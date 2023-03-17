@@ -1,18 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
 .lateral{
-    position: fixed;
-    top: 0;
-    left: 0;
     background-color: #F6F1F1;
-    width: 20%;
-    height: 100%;
+    width: 375px;
+    height: 969px;
 }
 .principal{
-    position: fixed;
-    top: 0;
-    left: 20%;
+    float: right;
     background-color: #0D435C;
-    width: 80%;
-    height: 100%;
+    width: 1528px;
+    height: 969px;
 }
 .cabeza{
     display: inline-block;
