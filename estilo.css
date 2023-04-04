@@ -12,15 +12,14 @@ body{
 }
 .lateral{
     background-color: #F6F1F1;
-    height: 887px;
     width: 400px;
+    height: 1000px;
     margin-top: 0;
     padding-top: 0;
 }
 .principal{
     background-color: #0D435C;
     width: 1000px;
-    height: 887px;
     order: 1;
     flex-grow: 2;
 }
@@ -50,7 +49,6 @@ body{
     margin: 1%;
     margin-top: 0;
     width: 98%;
-    height: 24%;
 }
 .foto{
     margin-left: 20%;
@@ -127,6 +125,15 @@ body{
     padding: 0.5% 2%;
 }
 .textomain{
+    font-size: 22px;
+    font-weight: bold;
+    content: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    padding: 0.5% 2%;
+}
+.textoparrafo{
     font-size: 20px;
     content: 100%;
     margin: 0;
